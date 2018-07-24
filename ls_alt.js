@@ -18,5 +18,5 @@ fs.readdir('./', (err, files) => {
         var tm = t.atime.toString().split('G');
 
         console.log(`${files[i]} \t ${t.size}b \t ${tm[0]}`);
-         }
-} );
+     }
+});
